@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: black;
+    height: 100vh;
+}
+.muyu{
+    height: 20%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 100%;
+    width: auto;
+    animation: 1s;
+}
+/* .muyu :hover{
+    transform:scale(1.2,1.2);
+} */
+.message{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: animate 1s linear;
+    font-size: 1.5em;
+}
+
+@keyframes animate{
+    0%{
+        transform: translate(-50%,-50%);
+        color: white;
+    }
+    100%{
+        transform: translate(-50%,-200px);
+        color: rgba(255, 255, 255, 0);
+    }
+}
+
+.num{
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2em;
+    color: white;
+}
