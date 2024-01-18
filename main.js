@@ -11,7 +11,7 @@ function qiao() {
     //音效
     let mp3 = document.getElementById('music');
     mp3.src = "";
-    mp3.src = "./muyu.mp3";
+    mp3.src = "./src/muyu.mp3";
     mp3.play();
     //计数
     count++;
